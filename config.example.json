@@ -1,0 +1,38 @@
+{
+   "agent_id": "vm-001",
+   "api_endpoint": "http://localhost:8888",
+   "redis": {
+      "host": "localhost",
+      "port": 6379,
+      "db": 0,
+      "password": null
+   },
+   "proxy": {
+      "host": "",
+      "port": 8080,
+      "username": "",
+      "password": ""
+   },
+   "accounts": {
+      "twitter": {
+         "username": "your_twitter_username",
+         "password": "your_twitter_password",
+         "cookies": {
+            "auth_token": "",
+            "ct0": "",
+            "twId": "",
+            "_twitter_sess": ""
+         },
+         "status": "not_logged_in",
+         "last_active": ""
+      },
+      "tiktok": {
+         "username": "your_tiktok_username",
+         "password": "your_tiktok_password"
+      },
+      "instagram": {
+         "username": "your_instagram_username",
+         "password": "your_instagram_password"
+      }
+   }
+}

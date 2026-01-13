@@ -1,0 +1,12 @@
+# Core automation libraries
+pyautogui==0.9.54
+websocket-client==1.9.0
+websockets==15.0.1
+
+# Celery and Redis for distributed task queue
+celery[redis]==5.6.0
+redis==6.4.0
+
+# Development - fake_api server
+fastapi==0.115.0
+uvicorn==0.30.0

@@ -1,0 +1,9 @@
+{
+   "name": "medusa-js-helpers",
+   "version": "1.0.0",
+   "description": "Node.js helpers for Medusa task runner",
+   "main": "locate.js",
+   "dependencies": {
+      "puppeteer-core": "^23.0.0"
+   }
+}

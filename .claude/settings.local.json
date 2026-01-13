@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(if [ -f \"requirements.txt\" ])",
+      "Bash(then cat requirements.txt)",
+      "Bash(else echo \"No requirements.txt found\")",
+      "Bash(fi)",
+      "Bash(python -m pip freeze:*)",
+      "Bash(python:*)",
+      "Bash(cat:*)",
+      "Bash(./venv/Scripts/python:*)",
+      "Bash(./venv/Scripts/pip install:*)",
+      "Bash(curl:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(tasklist:*)"
+    ]
+  }
+}

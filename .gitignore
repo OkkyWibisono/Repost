@@ -1,0 +1,36 @@
+# Browser data
+.medusa_browser_data/
+chrome_data/
+frontend/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node
+js/node_modules/
+
+# Local config (contains credentials - do not commit)
+config.json
+task.json
+memory.json
